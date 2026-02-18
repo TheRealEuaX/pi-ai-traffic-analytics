@@ -4,6 +4,7 @@ The system detects passing vehicles, classifies their brand, logs structured met
 
 # System architecture
 Camera -> Motion trigger -> Vehicle detection -> Region crop -> Brand classification -> Logging -> Dashboard
+
 Stage 1 – Vehicle Detection
 Model: YOLOv8 (nano variant)
 Detects vehicle bounding boxes
